@@ -9,6 +9,8 @@ describe('testing my findItemsOver20 function', function(){
             {name : 'bananas', qty : 27},
             {name : 'apples', qty : 3},
         ];        
+
+        assert(1, 2, 'should fail, 1 is not equal to 2')
 });
 
 });
